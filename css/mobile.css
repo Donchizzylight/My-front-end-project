@@ -1,0 +1,469 @@
+@media only screen and (max-width:768px){
+
+    /* .root{
+        --textLarge:2rem;
+        --text
+    } */
+    body{
+        margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        
+    }
+    /* start of header */
+    .main-navbar{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* gap: 10rem; */
+        justify-content:space-between;
+        align-items: center;
+        /* display: flex; */
+        padding: 1rem; 
+        box-shadow: 0px 0px 8px gray;
+        min-width: 15%;
+        /* max-width: 15%; */
+    }
+    /* .main-navbar a:hover{
+        text-decoration: none;
+    } */
+    .nav-logo {
+        display: flex;
+
+        align-items: center;
+        gap: 0.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        
+    }
+    .nav-logo img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .nav-links {
+        display: none;
+        gap: 2rem;
+        color: black;
+    }
+    .nav-links a{
+        /* color: black; */
+        padding: .7rem 0;
+        text-decoration: none;
+        color: #6f6f6f;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .nav-links .active{
+        border-bottom: 1px solid #ec475a;
+    
+    }
+
+    #toggleBtn{
+        border: 1px solid lightblue;
+        background-color: lightblue ;
+        padding: .5rem .8rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        /* display: none; */
+    }
+
+    .mobile-nav-link-grp{
+        /* display: grid; */
+        display: none;
+    }
+
+    .mobile-nav-link-grp a{
+       text-decoration: none;
+       padding: 1rem;
+       transition: all .3s ease;
+    }
+    .mobile-nav-link-grp a:hover{
+       background-color: rgb(59, 109, 226);
+       padding: 2rem;
+       color: white;
+    }
+    /* end of header */
+ 
+    .main-body {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.741);
+        color: white;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    
+    .main-body .row-1{
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    .main-body .row-1 a{
+        color: white;
+    }
+    .main-body .row-1 .row-1-col-1{
+        /* background-color: black; */
+        font-size: 0.8rem;
+    }
+    
+    .main-body .row-2{
+        display: flex;
+        text-align: center;
+        padding-left: 2rem;
+    
+    }
+    
+    .main-body .row-2 a{
+        color: white;
+        gap: 3rem;
+    }
+    
+    .main-body .row-3{
+        display: flex;
+        padding-left: 4rem;
+        gap: 2rem;
+    }
+    .main-body .row-3 a{
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    /* ---------------------------- */
+    /* contact.css */
+.co{
+    color:  rgba(12, 199, 187, 0.776);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+.cont .ph{
+    display: flex;
+    gap: 0.5rem;
+}
+.cont .ph a{
+    color: rgb(175, 8, 8);
+}
+.cont .mail{
+    display: flex;
+    gap: 0.5rem;
+}
+.cont .mail a{
+    color: rgb(201, 27, 27);
+}
+.map{
+    /* text-align: center; */
+    /* width: 0rem; */
+    /* background-color: black; */
+}
+
+.add{
+    display: flex;
+    gap: 0.5rem;
+}
+.add a{
+    color: rgb(201, 27, 27);
+}
+
+/* contact.css */
+    /* ---------------------------- */
+    .about{
+        /* background-color: red; */
+        padding: 1rem;
+        /* display: flex; */
+    }
+    .about .row-1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+        color: rgba(12, 199, 187, 0.776);
+    }
+    .about .row-2{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        gap: 10rem;
+        /* align-content: center; */
+        /* padding-left: 10rem; */
+        padding-bottom: 3rem;
+    }
+    .about .row-2 .row-2-col-1{
+        display: grid;
+        gap: 1rem;
+    }
+    .about .row-2 .row-2-col-1 div{
+        font-weight: bold;
+    }
+    .about .row-2 .row-2-col-1 img{
+        border-radius: 100%;
+        width: 200px;
+        /* height: 100%; */
+    }
+    .about .row-2 .row-2-col-2{
+        text-justify: auto;
+        color: grey;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    .about .aims{
+        display: grid;
+        gap: 2rem;
+    }
+    .about .aims .row-2{
+        /* padding-left: 300px; */
+        color: gray;
+    }
+    
+     .about .adim .img{
+        /* background-color: black; */
+        display: flex;
+        background-color: #f6f7fd ;
+        gap: 0.5rem;
+        /* width:10px; */
+     }
+
+    .about .adim .img img{
+        /* background-color: red; */
+        width: 150px;
+  
+    }
+    .about .adim .img1 img{
+    /* width: 400px; */
+    height: auto;
+    border-radius: 50%;
+}
+.about .adim .img1 .col-1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(10, 153, 151);
+    
+}
+.about .adim .img2 .col-1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(10, 153, 151);
+}
+
+
+/* start of infocss  */
+.info {
+    /* background-color: red; */
+    color: rgb(10, 153, 151);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: rgb(25, 142, 205); */
+    padding: 0.2rem;
+}
+
+.sdt-info{
+    /* padding: 1rem 1rem; */
+    display: flex;
+    gap: 150px;
+    /* justify-content: space-between; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sdt-info .inform .reg p{
+color: black;
+font-weight: bold;
+}
+.sdt-info .inform .week p{
+    color: black;
+font-weight: bold;
+}
+
+.sdt-info .inform .int p{
+    color: black;
+    font-weight: bold;
+}
+
+.sdt-info .mome{
+    /* background-color: black;*/
+    justify-content: space-between;
+
+
+}
+
+
+/* end of infocss  */
+
+
+    /* START OF GALL CSS */
+    .gall{
+        /* background-color: aqua; */
+        display: grid;
+        row-gap: 2rem;
+        padding: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    .gall-row-1{
+        /* font-size: 2rem; */
+        /* text-align: center; */
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        color: rgba(12, 199, 187, 0.776);
+    
+    }
+    
+    .gall-row-2{
+        display: grid;
+        row-gap: 2rem;
+    }
+    
+    .gal_row_2_col{
+        display: grid;
+    }
+    .gal_row_2_col p{ 
+      font-size: 1.5rem;
+    }
+    
+    .grid_imgs{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+        gap: 1rem;
+    }
+    .grid_imgs img{
+     width: 100%;
+    }
+    /* END OF GALL CSS */
+    /* end of body */
+    
+    
+    /* start of footer */
+    
+    .main-footer{
+        display: grid;
+        /* padding: 3rem; */
+        background-color: hsla(124, 53%, 29%, 0.817);
+}
+    }
+    .main-footer a :hover{
+        text-decoration: none;
+    }
+    
+    .row1{
+        display: flex;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        padding: 1rem;
+        border-bottom: 0.5px solid white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .row1 .col-1{
+        display: flex; 
+        gap: 0.5rem;
+        align-items: center; 
+    }
+    .row1 .col-1-row-2{
+        color: white;
+    }
+    
+    .row1 img{
+        display: flex;
+        font-size: 1rem;
+        width: 70px;
+        border-radius: 100%;
+    }
+    
+    .col-2 .col-2-row-1{
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        color: white;
+        
+    }
+    
+    .col-2 .col-2-row-2{
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(60px,1fr));
+        align-items: center;
+        column-gap: 3rem;
+        row-gap: 1rem;
+        /* background-color: red; */
+        
+        
+    }
+    .col-2 .col-2-row-2 a{
+        color: white;
+    }
+    
+    .col-2 .col-2-row-3{
+        font-weight: bold;
+        text-align: left;
+        font-size: 1rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        column-gap: 3rem;
+    }
+    
+    .col-2 .col-2-row-3 a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .part-b{
+        color: white;
+        padding: 4rem 4rem ;
+        border-bottom: 0.5px solid white;
+    
+    }
+    
+    .part-b .row2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+        gap: 2rem;
+        
+    }
+    .part-b .row2-col-1 a{
+        color: white;
+        text-decoration: none;
+    }
+    .part-b .row2-col-1 .head{
+        padding-bottom: 1rem;
+        font-weight: bold;
+    }
+    .part-b .row2-col-1 .body{
+        display: grid;
+        grid-gap: 0.5rem;
+    }
+    
+    .part-b .row2-col-2 a{
+        color: white;
+        text-decoration: none;
+    }
+    .part-b .row2-col-2 .head{
+        padding-bottom: 1rem;
+        font-weight: bold;
+    }
+    .part-b .row2-col-2 .body{
+        display: grid;
+        grid-gap: 0.5rem;
+    }
+
+    .part-b .row2-col-3 .head{
+        font-weight: bold;
+    }
+    
+    .part-b .row2-col-4{
+        list-style: none;
+    }
+    .part-b .row2-col-4 .head{
+        font-weight: bold;
+    }
+    .part-c{
+        text-align: center;
+        color: white;
+        background-color: rgba(36, 23, 23, 0.803);
+    }
+    
+    /* end of footer */
+    
