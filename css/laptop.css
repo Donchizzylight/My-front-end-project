@@ -150,12 +150,12 @@ body{
 .cont .mail a{
     color: rgb(201, 27, 27);
 }
-.map{
+
     /* text-align: center; */
     /* width: auto; */
 
     /* background-color: black; */
-}
+
 
 .add{
     display: flex;
@@ -307,7 +307,7 @@ font-weight: bold;
 }
 /* end of info pge css */
 /* srat of gallary page css */
-F{
+
 /* .gall .gall-row-1{
     color: rgba(19, 194, 210, 0.935);
     font-size: xx-large;
@@ -342,7 +342,7 @@ F{
     color: rgba(0, 0, 0, 0.971);
     font-size: 1rem;
 } */
-}
+
 
 
 .gall{
